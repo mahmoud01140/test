@@ -8,10 +8,10 @@ export const BUSINESS_CONFIG = {
   tagline: "لكل مناسبة هدية وباقة تحكي حكاية",
   category: "متجر هدايا وباقات ورد وقطع ديكور لجميع المناسبات",
   location: "خدمة التوصيل السريع لجميع المناطق",
-  phone: "01223335050",
-  whatsappNumber: "201223335050",
-  baseWhatsappUrl: "https://wa.me/201223335050",
-  phoneCallUrl: "tel:01223335050",
+  phone: "012345678974",
+  whatsappNumber: "2012345678974",
+  baseWhatsappUrl: "https://wa.me/2012345678974",
+  phoneCallUrl: "tel:012345678974",
 };
 
 /**

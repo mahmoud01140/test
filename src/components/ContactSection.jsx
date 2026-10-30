@@ -30,7 +30,7 @@ export default function ContactSection() {
               </div>
               <div className="method-info">
                 <span className="method-label">محادثة واتساب سريعة</span>
-                <span className="method-value" dir="ltr">01223335050</span>
+                <span className="method-value" dir="ltr">{BUSINESS_CONFIG.phone}</span>
                 <p className="method-desc">الطريقة الأسرع والأسهل للاستفسار وتلقي الصور والأسعار</p>
               </div>
               <a
@@ -52,7 +52,7 @@ export default function ContactSection() {
               </div>
               <div className="method-info">
                 <span className="method-label">اتصال هاتفي مباشر</span>
-                <span className="method-value" dir="ltr">01223335050</span>
+                <span className="method-value" dir="ltr">{BUSINESS_CONFIG.phone}</span>
                 <p className="method-desc">للاتصال والاستفسار الصوتي المباشر خلال أوقات العمل</p>
               </div>
               <a
