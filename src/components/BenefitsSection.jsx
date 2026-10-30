@@ -49,7 +49,7 @@ export default function BenefitsSection() {
             <Sparkles size={16} />
             <span>تجربة تسوق مريحة</span>
           </div>
-          <h2 className="section-title">لماذا تختار سنتر الأحلام؟</h2>
+          <h2 className="section-title">لماذا تختار توتي للهدايا والورد؟</h2>
           <p className="section-subtitle">
             نحرص على أن تكون تجربة اختيار هديتك سهلة وممتعة، مع تقديم معلومات صادقة وخدمة تليق بأهل بني سويف.
           </p>

@@ -53,7 +53,7 @@ export default function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-whatsapp-solid navbar-wa-btn"
-            aria-label="تواصل مع سنتر الأحلام على واتساب"
+            aria-label="تواصل مع توتي للهدايا والورد على واتساب"
           >
             <MessageCircle size={19} className="btn-icon" />
             <span>اسألنا على واتساب</span>

@@ -17,7 +17,7 @@ export default function ContactSection() {
             <h2 className="contact-title">هديتك المميزة تبدأ برسالة</h2>
             
             <p className="contact-subtitle">
-              تواصل مع سنتر الأحلام واسأل عن الهدايا المتاحة للمناسبة اللي بتجهّز لها. يسعدنا استقبال استفساراتك واقتراح الأنسب لك.
+              تواصل مع توتي للهدايا والورد واسأل عن الهدايا والورد المتاح للمناسبة اللي بتجهّز لها. يسعدنا استقبال استفساراتك واقتراح الأنسب لك.
             </p>
           </div>
 
@@ -78,7 +78,7 @@ export default function ContactSection() {
                 </p>
               </div>
               <a
-                href={getWhatsAppUrl("مرحبًا سنتر الأحلام، أود الاستفسار عن مواعيد العمل وموقع المحل داخل بني سويف.")}
+                href={getWhatsAppUrl("مرحبًا توتي للهدايا والورد، أود الاستفسار عن مواعيد العمل وموقع المحل داخل بني سويف.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-secondary method-action-btn"

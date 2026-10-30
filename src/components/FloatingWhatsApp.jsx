@@ -36,7 +36,7 @@ export default function FloatingWhatsApp() {
         target="_blank"
         rel="noopener noreferrer"
         className="floating-wa-button"
-        aria-label="تواصل مع سنتر الأحلام على واتساب مباشرة"
+        aria-label="تواصل مع توتي للهدايا والورد على واتساب مباشرة"
       >
         <span className="floating-wa-pulse" aria-hidden="true"></span>
         <MessageCircle size={32} className="floating-wa-icon" />

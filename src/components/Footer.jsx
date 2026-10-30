@@ -21,7 +21,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="footer-bio">
-            {BUSINESS_CONFIG.tagline}. وجهتك المفضلة في بني سويف لاقتناء أجمل الهدايا والأنتيكات وقطع الديكور التي تعبر عن ذوقك الرفيع.
+            {BUSINESS_CONFIG.tagline}. وجهتك المفضلة في بني سويف لاقتناء أجمل الهدايا وباقات الورد وقطع الديكور التي تعبر عن ذوقك الرفيع.
           </p>
           <div className="footer-location-tag">
             <MapPin size={16} />
@@ -48,7 +48,7 @@ export default function Footer() {
             <li><a href="#hero">الرئيسية</a></li>
             <li><a href="#products">معرض المنتجات المميزة</a></li>
             <li><a href="#gift-finder">مساعد اختيار الهدية</a></li>
-            <li><a href="#benefits">لماذا سنتر الأحلام؟</a></li>
+            <li><a href="#benefits">لماذا توتي للهدايا والورد؟</a></li>
             <li><a href="#faq">الأسئلة الشائعة</a></li>
             <li><a href="#contact">تواصل معنا</a></li>
           </ul>

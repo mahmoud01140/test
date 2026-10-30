@@ -11,7 +11,7 @@ export default function HeroSection() {
         <div className="hero-content">
           <div className="hero-badge">
             <Sparkles size={16} className="badge-icon" />
-            <span>سنتر الأحلام للهدايا والأنتيكات</span>
+            <span>توتي للهدايا والورد</span>
           </div>
 
           <h1 className="hero-title">
@@ -19,7 +19,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="hero-description">
-            من هدايا أعياد الميلاد والخطوبة إلى الأنتيكات وقطع الديكور، اكتشف اختيارات متنوعة في سنتر الأحلام ببني سويف، واسألنا مباشرة عن القطعة المناسبة لمناسبتك وميزانيتك.
+            من هدايا أعياد الميلاد والخطوبة إلى باقات الورد وقطع الديكور، اكتشف اختيارات متنوعة في توتي للهدايا والورد ببني سويف، واسألنا مباشرة عن القطعة المناسبة لمناسبتك وميزانيتك.
           </p>
 
           {/* Quick Context Highlights (Truthful & Credible) */}
@@ -67,7 +67,7 @@ export default function HeroSection() {
           <div className="hero-image-wrapper">
             <img
               src="https://images.unsplash.com/photo-1513885535751-8b9238bd345a?auto=format&fit=crop&w=900&q=85"
-              alt="صناديق هدايا فاخرة وقطع تذكارية من سنتر الأحلام ببني سويف"
+              alt="صناديق هدايا فاخرة وباقات ورد من توتي للهدايا والورد ببني سويف"
               className="hero-main-img"
               loading="eager"
             />
