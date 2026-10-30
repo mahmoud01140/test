@@ -154,6 +154,9 @@
 .gift-finder-btn {
   font-size: 1.15rem;
   padding: 16px 36px;
+  white-space: normal;
+  line-height: 1.4;
+  text-align: center;
 }
 
 .cta-send-icon {
@@ -188,5 +191,69 @@
     width: 100%;
     font-size: 1.02rem;
     padding: 14px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gift-finder-section {
+    padding: 48px 0;
+  }
+  .gift-finder-card {
+    padding: 28px 14px;
+    border-radius: var(--radius-lg);
+  }
+  .gift-finder-badge {
+    font-size: 0.8rem;
+    padding: 5px 14px;
+    margin-bottom: 14px;
+  }
+  .gift-finder-title {
+    font-size: 1.45rem;
+    line-height: 1.35;
+  }
+  .gift-finder-desc {
+    font-size: 0.92rem;
+    line-height: 1.65;
+    margin-bottom: 22px;
+  }
+  .fast-selectors-wrapper {
+    padding: 14px 10px;
+    margin-bottom: 20px;
+  }
+  .selector-label {
+    font-size: 0.86rem;
+    margin-bottom: 8px;
+  }
+  .selector-chips {
+    gap: 6px;
+  }
+  .selector-chip {
+    font-size: 0.78rem;
+    padding: 5px 10px;
+  }
+  .message-preview-box {
+    padding: 12px 14px;
+    margin-bottom: 20px;
+  }
+  .preview-text {
+    font-size: 0.86rem;
+  }
+  .gift-finder-btn {
+    font-size: 0.94rem;
+    padding: 12px 16px;
+  }
+}
+
+@media (max-width: 350px) {
+  .gift-finder-title {
+    font-size: 1.28rem;
+  }
+  .selector-chip {
+    font-size: 0.74rem;
+    padding: 4px 8px;
+  }
+  .gift-finder-btn {
+    font-size: 0.88rem;
+    padding: 11px 12px;
   }
 }

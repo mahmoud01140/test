@@ -130,6 +130,9 @@
   width: 100%;
   padding: 12px 18px;
   font-size: 0.94rem;
+  white-space: normal;
+  line-height: 1.4;
+  text-align: center;
 }
 
 /* Responsiveness */
@@ -142,15 +145,58 @@
 
 @media (max-width: 640px) {
   .contact-section {
-    padding: 56px 0;
+    padding: 48px 0;
   }
   .contact-card {
-    padding: 32px 18px;
+    padding: 28px 16px;
   }
   .contact-title {
-    font-size: 1.85rem;
+    font-size: 1.75rem;
   }
   .contact-subtitle {
-    font-size: 0.98rem;
+    font-size: 0.95rem;
+  }
+  .contact-header {
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 440px) {
+  .contact-card {
+    padding: 22px 12px;
+    border-radius: var(--radius-lg);
+  }
+  .contact-title {
+    font-size: 1.45rem;
+  }
+  .contact-subtitle {
+    font-size: 0.88rem;
+  }
+  .contact-method-card {
+    padding: 20px 12px;
+  }
+  .method-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 12px;
+  }
+  .method-value {
+    font-size: 1.15rem;
+  }
+  .method-desc {
+    font-size: 0.82rem;
+  }
+  .method-action-btn {
+    padding: 10px 12px;
+    font-size: 0.86rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .contact-title {
+    font-size: 1.3rem;
+  }
+  .method-value {
+    font-size: 1.05rem;
   }
 }
