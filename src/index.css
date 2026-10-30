@@ -1,0 +1,247 @@
+/* ==========================================================================
+   Center Al-Ahlam Design System & Base Styling
+   E-commerce & Gift Shop Landing Page (Beni Suef, Egypt)
+   ========================================================================== */
+
+:root {
+  /* Color Palette - Warm, Heritage, Sophisticated */
+  --color-ivory: #FAF8F5;
+  --color-cream: #F4EFEA;
+  --color-beige: #EAE0D5;
+  --color-beige-dark: #D8CCC0;
+  
+  --color-forest: #1A382B;
+  --color-forest-light: #254F3D;
+  --color-forest-soft: #E9EFEA;
+  
+  --color-espresso: #2C221E;
+  --color-text-main: #231F20;
+  --color-text-muted: #5C5552;
+  --color-text-light: #8A817C;
+  
+  --color-gold: #C5A059;
+  --color-gold-light: #DFBF7C;
+  --color-gold-dark: #A5803A;
+  --color-gold-soft: #FDF9EE;
+
+  --color-whatsapp: #25D366;
+  --color-whatsapp-dark: #1EBE5D;
+  --color-whatsapp-soft: #E8F8EE;
+
+  --color-white: #FFFFFF;
+  --color-border: #E8E2DA;
+  --color-border-hover: #D5C9BC;
+
+  /* Typography */
+  --font-heading: 'Cairo', system-ui, -apple-system, sans-serif;
+  --font-body: 'Tajawal', system-ui, -apple-system, sans-serif;
+
+  /* Elevation Shadows - Subtle and natural */
+  --shadow-xs: 0 1px 3px rgba(44, 34, 30, 0.05);
+  --shadow-sm: 0 2px 6px rgba(44, 34, 30, 0.06);
+  --shadow-md: 0 6px 18px rgba(44, 34, 30, 0.08);
+  --shadow-lg: 0 12px 30px rgba(44, 34, 30, 0.10);
+  --shadow-gold: 0 4px 20px rgba(197, 160, 89, 0.25);
+  --shadow-whatsapp: 0 4px 18px rgba(37, 211, 102, 0.32);
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Base Reset & Typography */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-body);
+  background-color: var(--color-ivory);
+  color: var(--color-text-main);
+  direction: rtl;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  line-height: 1.65;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--color-ivory);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-espresso);
+  line-height: 1.3;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Container Utility */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Section Header Utility */
+.section-header {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 48px auto;
+}
+
+.section-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background-color: var(--color-forest-soft);
+  color: var(--color-forest);
+  border: 1px solid rgba(26, 56, 43, 0.12);
+  border-radius: var(--radius-full);
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.section-title {
+  font-size: 2.1rem;
+  margin-bottom: 14px;
+  color: var(--color-forest);
+}
+
+.section-subtitle {
+  font-size: 1.05rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 13px 26px;
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all var(--transition-normal);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.btn-primary-wa {
+  background-color: var(--color-forest);
+  color: var(--color-white);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-forest);
+}
+
+.btn-primary-wa:hover {
+  background-color: var(--color-forest-light);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-whatsapp-solid {
+  background-color: var(--color-whatsapp);
+  color: #0b4520;
+  font-weight: 700;
+  box-shadow: var(--shadow-whatsapp);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.btn-whatsapp-solid:hover {
+  background-color: var(--color-whatsapp-dark);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(37, 211, 102, 0.45);
+}
+
+.btn-secondary {
+  background-color: var(--color-white);
+  color: var(--color-espresso);
+  border: 1.5px solid var(--color-border);
+  box-shadow: var(--shadow-xs);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-cream);
+  border-color: var(--color-gold);
+  color: var(--color-forest);
+  transform: translateY(-2px);
+}
+
+.btn-gold {
+  background-color: var(--color-gold);
+  color: #ffffff;
+  border: 1px solid var(--color-gold-dark);
+  box-shadow: var(--shadow-gold);
+}
+
+.btn-gold:hover {
+  background-color: var(--color-gold-dark);
+  transform: translateY(-2px);
+}
+
+/* Accessibility Focus States */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Responsive Font Scaling */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.75rem;
+  }
+  .section-subtitle {
+    font-size: 0.95rem;
+  }
+}

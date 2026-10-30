@@ -1,0 +1,98 @@
+import { MESSAGES, getWhatsAppUrl } from './business';
+
+/**
+ * Featured Products Data
+ * Clean, extensible product list with clear descriptions and direct WhatsApp inquiry links.
+ * Prices are marked as 'اسأل عن السعر' unless confirmed, avoiding artificial discounts.
+ */
+
+export const PRODUCTS = [
+  {
+    id: "p1",
+    name: "مبخرة نحاسية كلاسيكية منقوشة",
+    category: "antiques-decor",
+    categoryLabel: "أنتيكات وديكور",
+    description: "مبخرة فاخرة بنقوش هندسية دقيقة وتشطيب برونزي دافئ يضفي وقاراً على مجلسك.",
+    image: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80",
+    priceStatus: "اسأل عن السعر والتوافر",
+    tag: "قطعة مميزة",
+    whatsappUrl: getWhatsAppUrl(MESSAGES.product("مبخرة نحاسية كلاسيكية منقوشة")),
+  },
+  {
+    id: "p2",
+    name: "طقم صينية تقديم ومستلزمات خطوبة فاخرة",
+    category: "wedding-engagement",
+    categoryLabel: "خطوبة وزفاف",
+    description: "تصميم أنيق بإطار مذهب وقاعدة مرآة لعرض هدايا الخطوبة بأرقى مظهر.",
+    image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=700&q=80",
+    priceStatus: "اسأل عن السعر والتوافر",
+    tag: "الأكثر طلباً للمناسبات",
+    whatsappUrl: getWhatsAppUrl(MESSAGES.product("طقم صينية تقديم ومستلزمات خطوبة")),
+  },
+  {
+    id: "p3",
+    name: "ساعة حائط كلاسيكية أنتيك خشبية",
+    category: "antiques-decor",
+    categoryLabel: "أنتيكات وديكور",
+    description: "إطار خشبي متين وتصميم أرقام رومانية كلاسيكية يمنح الصالون هوية راقية.",
+    image: "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?auto=format&fit=crop&w=700&q=80",
+    priceStatus: "اسأل عن السعر والتوافر",
+    tag: "ديكور جداري",
+    whatsappUrl: getWhatsAppUrl(MESSAGES.product("ساعة حائط كلاسيكية أنتيك")),
+  },
+  {
+    id: "p4",
+    name: "صندوق هدية راقٍ للمواليد والاحتفال بالسبوع",
+    category: "newborn-kids",
+    categoryLabel: "مواليد وأطفال",
+    description: "تنسيق متناسق وناعم مع علبة تذكارية مناسبة لتقديم الهدايا النقدية والعينية.",
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=700&q=80",
+    priceStatus: "اسأل عن السعر والتوافر",
+    tag: "هدايا مواليد",
+    whatsappUrl: getWhatsAppUrl(MESSAGES.product("صندوق هدية راقٍ للمواليد")),
+  },
+  {
+    id: "p5",
+    name: "صندوق هدايا جلدي أنيق مع شريط مخملي",
+    category: "birthdays",
+    categoryLabel: "أعياد ميلاد ومناسبات",
+    description: "علبة فاخرة تناسب الساعات أو العطور أو الإكسسوارات مع بطاقة إهداء مخصصة.",
+    image: "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=700&q=80",
+    priceStatus: "اسأل عن السعر والتوافر",
+    tag: "تغليف مميز",
+    whatsappUrl: getWhatsAppUrl(MESSAGES.product("صندوق هدايا جلدي أنيق")),
+  },
+  {
+    id: "p6",
+    name: "شمعدان كريستال كلاسيكي ثلاثي",
+    category: "variety-gifts",
+    categoryLabel: "ديكور وهدايا",
+    description: "لمسة إضاءة دافئة تزين طاولة الطعام أو طاولة الاستقبال بأناقة لافتة.",
+    image: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=700&q=80",
+    priceStatus: "اسأل عن السعر والتوافر",
+    tag: "لمسة دافئة",
+    whatsappUrl: getWhatsAppUrl(MESSAGES.product("شمعدان كريستال كلاسيكي")),
+  },
+  {
+    id: "p7",
+    name: "برواز صور مذهب بتفاصيل تراثية",
+    category: "special-occasions",
+    categoryLabel: "مناسبات خاصة",
+    description: "إطار عالي الجودة لحفظ أجمل الذكريات العائلية والصور الشخصية.",
+    image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=700&q=80",
+    priceStatus: "اسأل عن السعر والتوافر",
+    tag: "تذكار دائم",
+    whatsappUrl: getWhatsAppUrl(MESSAGES.product("برواز صور مذهب كلاسيكي")),
+  },
+  {
+    id: "p8",
+    name: "طقم فازات سيراميك بوهيمي ريفي",
+    category: "antiques-decor",
+    categoryLabel: "أنتيكات وديكور",
+    description: "ألوان ترابية هادئة تتناغم مع أي أثاث عصري أو كلاسيكي وتضفي حيوية للمكان.",
+    image: "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?auto=format&fit=crop&w=700&q=80",
+    priceStatus: "اسأل عن السعر والتوافر",
+    tag: "ديكور عصري",
+    whatsappUrl: getWhatsAppUrl(MESSAGES.product("طقم فازات سيراميك ريفي")),
+  },
+];

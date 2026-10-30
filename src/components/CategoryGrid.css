@@ -1,0 +1,124 @@
+.categories-section {
+  padding: 80px 0;
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.category-card {
+  background-color: var(--color-ivory);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-xs);
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-gold);
+  box-shadow: var(--shadow-md);
+}
+
+.category-image-container {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background-color: var(--color-cream);
+}
+
+.category-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.category-card:hover .category-img {
+  transform: scale(1.04);
+}
+
+.category-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background-color: rgba(26, 56, 43, 0.88);
+  color: var(--color-gold-light);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(223, 191, 124, 0.3);
+}
+
+.category-card-body {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.category-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-forest);
+  margin-bottom: 8px;
+}
+
+.category-desc {
+  font-size: 0.94rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.category-card-footer {
+  margin-top: auto;
+}
+
+.category-wa-btn {
+  width: 100%;
+  padding: 11px 16px;
+  font-size: 0.94rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-arrow {
+  transition: transform var(--transition-fast);
+}
+
+.category-wa-btn:hover .btn-arrow {
+  transform: translateX(-4px);
+}
+
+/* Responsiveness */
+@media (max-width: 1024px) {
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .categories-section {
+    padding: 56px 0;
+  }
+  .categories-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .category-image-container {
+    height: 190px;
+  }
+}
