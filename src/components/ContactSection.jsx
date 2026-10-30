@@ -17,7 +17,7 @@ export default function ContactSection() {
             <h2 className="contact-title">هديتك المميزة تبدأ برسالة</h2>
             
             <p className="contact-subtitle">
-              تواصل مع توتي للهدايا والورد واسأل عن الهدايا والورد المتاح للمناسبة اللي بتجهّز لها. يسعدنا استقبال استفساراتك واقتراح الأنسب لك.
+              تواصل مع متجر فلورا واسأل عن باقات الورد والهدايا المتاحة للمناسبة اللي بتجهّز لها. يسعدنا استقبال استفساراتك واقتراح الأنسب لك.
             </p>
           </div>
 
@@ -71,19 +71,19 @@ export default function ContactSection() {
                 <MapPin size={28} />
               </div>
               <div className="method-info">
-                <span className="method-label">الموقع الجغرافي</span>
+                <span className="method-label">خدمة التوصيل</span>
                 <span className="method-value">{BUSINESS_CONFIG.location}</span>
                 <p className="method-desc">
-                  نخدم عملاءنا في محافظة بني سويف، ويمكنك الاستفسار عن تفاصيل الوصول ومواعيد العمل عبر واتساب.
+                  نوفر خدمة التوصيل السريع للمنازل وأماكن المناسبات، مع إمكانية الاستفسار عن المواعيد والتنسيق المسبق عبر واتساب.
                 </p>
               </div>
               <a
-                href={getWhatsAppUrl("مرحبًا توتي للهدايا والورد، أود الاستفسار عن مواعيد العمل وموقع المحل داخل بني سويف.")}
+                href={getWhatsAppUrl("مرحبًا فلورا للهدايا والورد، أود الاستفسار عن إمكانية ومواعيد التوصيل.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-secondary method-action-btn"
               >
-                <span>اسأل عن الموقع والمواعيد</span>
+                <span>اسأل عن التوصيل والمواعيد</span>
               </a>
             </div>
           </div>

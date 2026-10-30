@@ -31,7 +31,7 @@ export default function Navbar() {
           </span>
           <div className="brand-text">
             <span className="brand-title">{BUSINESS_CONFIG.name}</span>
-            <span className="brand-subtitle">بني سويف</span>
+            <span className="brand-subtitle">متجر هدايا وتنسيق زهور</span>
           </div>
         </a>
 
@@ -53,7 +53,7 @@ export default function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-whatsapp-solid navbar-wa-btn"
-            aria-label="تواصل مع توتي للهدايا والورد على واتساب"
+            aria-label="تواصل مع فلورا للهدايا والورد على واتساب"
           >
             <MessageCircle size={19} className="btn-icon" />
             <span>اسألنا على واتساب</span>

@@ -11,22 +11,22 @@ export default function HeroSection() {
         <div className="hero-content">
           <div className="hero-badge">
             <Sparkles size={16} className="badge-icon" />
-            <span>توتي للهدايا والورد</span>
+            <span>فلورا للهدايا والورد</span>
           </div>
 
           <h1 className="hero-title">
-            لكل مناسبة <span className="highlight-text">هدية</span> تحكي حكاية
+            لكل مناسبة <span className="highlight-text">هدية وباقة</span> تحكي حكاية
           </h1>
 
           <p className="hero-description">
-            من هدايا أعياد الميلاد والخطوبة إلى باقات الورد وقطع الديكور، اكتشف اختيارات متنوعة في توتي للهدايا والورد ببني سويف، واسألنا مباشرة عن القطعة المناسبة لمناسبتك وميزانيتك.
+            من هدايا أعياد الميلاد والخطوبة إلى أحدث باقات الورد وقطع الديكور، اكتشف تشكيلات راقية في متجر فلورا، واسألنا مباشرة عن القطعة المناسبة لمناسبتك وميزانيتك.
           </p>
 
           {/* Quick Context Highlights (Truthful & Credible) */}
           <div className="hero-pills">
             <div className="pill-item">
               <CheckCircle2 size={16} className="pill-icon" />
-              <span>أنتيكات وديكورات مختارة</span>
+              <span>باقات ورد وتنسيقات عصرية</span>
             </div>
             <div className="pill-item">
               <CheckCircle2 size={16} className="pill-icon" />
@@ -34,7 +34,7 @@ export default function HeroSection() {
             </div>
             <div className="pill-item">
               <MapPin size={16} className="pill-icon" />
-              <span>محافظة بني سويف</span>
+              <span>توصيل سريع ومتاح</span>
             </div>
           </div>
 
@@ -67,7 +67,7 @@ export default function HeroSection() {
           <div className="hero-image-wrapper">
             <img
               src="https://images.unsplash.com/photo-1513885535751-8b9238bd345a?auto=format&fit=crop&w=900&q=85"
-              alt="صناديق هدايا فاخرة وباقات ورد من توتي للهدايا والورد ببني سويف"
+              alt="صناديق هدايا فاخرة وباقات ورد طبيعي من متجر فلورا"
               className="hero-main-img"
               loading="eager"
             />

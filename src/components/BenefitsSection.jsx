@@ -27,8 +27,8 @@ export default function BenefitsSection() {
     },
     {
       icon: <Truck size={28} />,
-      title: "اسأل عن التوصيل داخل بني سويف",
-      description: "يمكنك الاستفسار عن إمكانية وترتيبات التوصيل لمنطقتك داخل محافظة بني سويف حسب القطعة المطلوبة.",
+      title: "خدمة التوصيل السريع والآمن",
+      description: "يمكنك الاستفسار عن إمكانية ومواعيد التوصيل لمنطقتك وتنسيق استلام الهدية أو الورد في الوقت المحدد.",
       hasInquiryLink: true,
       inquiryUrl: getWhatsAppUrl(MESSAGES.delivery()),
       inquiryText: "استفسر عن التوصيل لمنطقتك",
@@ -49,9 +49,9 @@ export default function BenefitsSection() {
             <Sparkles size={16} />
             <span>تجربة تسوق مريحة</span>
           </div>
-          <h2 className="section-title">لماذا تختار توتي للهدايا والورد؟</h2>
+          <h2 className="section-title">لماذا تختار فلورا للهدايا والورد؟</h2>
           <p className="section-subtitle">
-            نحرص على أن تكون تجربة اختيار هديتك سهلة وممتعة، مع تقديم معلومات صادقة وخدمة تليق بأهل بني سويف.
+            نحرص على أن تكون تجربة اختيار هديتك سهلة وممتعة، مع تقديم تنسيقات متقنة وخدمة سريعة تليق بمناسبتك.
           </p>
         </div>
 
