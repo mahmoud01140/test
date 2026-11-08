@@ -1,0 +1,26 @@
+{
+  "name": "flower-leads",
+  "version": "1.0.0",
+  "description": "نظام استخراج بيانات محلات الزهور في محافظات مصر وإعداد رسائل تسويقية مخصصة",
+  "main": "scripts/start-search.js",
+  "scripts": {
+    "start": "node scripts/start-search.js",
+    "search": "node scripts/start-search.js",
+    "send": "node scripts/send-messages.js",
+    "send:auto": "node scripts/send-messages.js --auto",
+    "send:dry": "node scripts/send-messages.js --dry-run",
+    "test": "node scripts/test-system.js"
+  },
+  "keywords": [
+    "flower-shops",
+    "egypt",
+    "lead-generation",
+    "whatsapp-marketing",
+    "osm-overpass"
+  ],
+  "author": "Mahmoud",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.65.0"
+  }
+}

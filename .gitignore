@@ -1,4 +1,6 @@
-# Logs
+# WhatsApp Session
+.whatsapp-session
+flower-leads/.whatsapp-session
 logs
 *.log
 npm-debug.log*
